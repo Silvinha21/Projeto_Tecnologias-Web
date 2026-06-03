@@ -6,6 +6,7 @@ O Sistema de Adoção de Animais é uma plataforma web desenvolvida para facilit
 👨‍💻 Integrantes da Equipe 
 
 Arthur Silva Soares
+
 EduARdo Oliveira de Paula
 
 ⚙️ Funcionalidades
