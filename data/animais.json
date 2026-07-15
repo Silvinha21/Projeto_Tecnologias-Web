@@ -1,0 +1,88 @@
+{
+  "animais": [
+    {
+      "id": "mel",
+      "nome": "Mel",
+      "especie": "cao",
+      "status": "Disponível",
+      "idade": "2 anos",
+      "raca": "Vira-lata caramelo",
+      "sexo": "Fêmea",
+      "porte": "Porte médio",
+      "saude": "Castrada e vacinada",
+      "localizacao": "Recife, PE",
+      "temperamento": ["Dócil", "Brincalhona", "Boa com crianças"],
+      "imagem": ""
+    },
+    {
+      "id": "tobias",
+      "nome": "Tobias",
+      "especie": "gato",
+      "status": "Disponível",
+      "idade": "1 ano",
+      "raca": "SRD pelo curto",
+      "sexo": "Macho",
+      "porte": "Porte pequeno",
+      "saude": "Castrado e vacinado",
+      "localizacao": "Caruaru, PE",
+      "temperamento": ["Independente", "Carinhoso", "Curioso"],
+      "imagem": ""
+    },
+    {
+      "id": "thor",
+      "nome": "Thor",
+      "especie": "cao",
+      "status": "Disponível",
+      "idade": "4 anos",
+      "raca": "Labrador misto",
+      "sexo": "Macho",
+      "porte": "Porte grande",
+      "saude": "Castrado e vacinado",
+      "localizacao": "Petrolândia, PE",
+      "temperamento": ["Protetor", "Calmo", "Adora passeios"],
+      "imagem": ""
+    },
+    {
+      "id": "luna",
+      "nome": "Luna",
+      "especie": "gato",
+      "status": "Disponível",
+      "idade": "6 meses",
+      "raca": "SRD laranja",
+      "sexo": "Fêmea",
+      "porte": "Porte pequeno",
+      "saude": "Vacinada · castração agendada",
+      "localizacao": "Garanhuns, PE",
+      "temperamento": ["Filhote", "Brincalhona", "Sociável"],
+      "imagem": ""
+    },
+    {
+      "id": "nina",
+      "nome": "Nina",
+      "especie": "cao",
+      "status": "Disponível",
+      "idade": "7 anos",
+      "raca": "Poodle misto",
+      "sexo": "Fêmea",
+      "porte": "Porte pequeno",
+      "saude": "Castrada e vacinada",
+      "localizacao": "Recife, PE",
+      "temperamento": ["Tranquila", "Sênior", "Ótima companhia"],
+      "imagem": ""
+    },
+    {
+      "id": "preto",
+      "nome": "Preto",
+      "especie": "gato",
+      "status": "Disponível",
+      "idade": "3 anos",
+      "raca": "SRD pelo curto",
+      "sexo": "Macho",
+      "porte": "Porte médio",
+      "saude": "Castrado e vacinado",
+      "localizacao": "Caruaru, PE",
+      "temperamento": ["Observador", "Manhoso", "Gosta de altura"],
+      "imagem": ""
+    }
+  ]
+}
