@@ -1,4 +1,4 @@
-  :root{
+:root{
     --bg: #EEF2E4;
     --bg-soft: #F7F9F1;
     --card: #FFFFFF;
@@ -217,6 +217,11 @@
   }
   .como-card h3{ font-size:1.08rem; color: var(--pine-deep); margin-bottom:8px; }
   .como-card p{ font-size:.9rem; color: var(--ink-soft); }
+
+  .icon-card{
+    width:15px; 
+    height:15px;
+  }
 
   /* ---------- footer ---------- */
   footer{ padding:56px 0 26px; }

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Refúgio Patas — Adoção Responsável</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav wrap">
+    <div class="brand">
+      <svg viewBox="0 0 64 64"><path class="paw" d="M20 30c5 0 9 5 9 11s-4 9-9 9-9-5-9-11 4-9 9-9zm24 0c5 0 9 4 9 9s-4 11-9 11-9-3-9-9 4-11 9-11zM14 12c3.6 0 6.5 3.8 6.5 8.5S17.6 29 14 29s-6.5-3.8-6.5-8.5S10.4 12 14 12zm36 0c3.6 0 6.5 3.8 6.5 8.5S53.6 29 50 29s-6.5-3.8-6.5-8.5S46.4 12 50 12zM32 20c5.5 0 10 5.6 10 12.5S39 47 32 47s-10-7.6-10-14.5S26.5 20 32 20z"/></svg>
+      <span class="logo-word">Refúgio <span>Patas</span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#animais">Adotar</a></li>
+      <li><a href="#como">Como funciona</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="#animais" class="nav-cta">Ver animais</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">🐾 Adoção responsável</span>
+      <h1>Um lar quentinho começa com <em>uma decisão sua</em></h1>
+      <p class="lead">Conheça cães e gatos resgatados, avaliados e prontos para uma nova família. Cada card abaixo é um final feliz esperando para acontecer.</p>
+      <div class="hero-ctas">
+        <a href="#animais" class="btn-primary">Quero adotar agora</a>
+        <a href="#como" class="btn-ghost">Como funciona</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>128</b><span>animais disponíveis</span></div>
+        <div class="stat"><b>940</b><span>adoções realizadas</span></div>
+        <div class="stat"><b>4.9</b><span>satisfação dos tutores</span></div>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <div class="tag-collage">
+        <div class="img-placeholder">Espaço para imagem<br>do animal em destaque</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="filtros-section wrap" id="animais">
+  <div class="filtros-head">
+    <h2>Animais esperando por você</h2>
+    <p>Filtre por espécie e encontre o novo integrante da família.</p>
+  </div>
+
+  <input class="filtros-input" type="radio" name="filtro" id="f-todos" checked>
+  <input class="filtros-input" type="radio" name="filtro" id="f-caes">
+  <input class="filtros-input" type="radio" name="filtro" id="f-gatos">
+
+  <div class="filtros-tabs">
+    <label for="f-todos">Todos</label>
+    <label for="f-caes">Cães</label>
+    <label for="f-gatos">Gatos</label>
+  </div>
+
+  <div class="grid" id="grid">
+    <!-- Os cards são gerados automaticamente a partir de animais.json -->
+  </div>
+</section>
+
+<section class="como" id="como">
+  <div class="wrap">
+    <div class="como-head">
+      <h2>Como funciona a adoção</h2>
+      <p>Um processo simples, pensado para o bem-estar do animal e a segurança da sua família.</p>
+    </div>
+    <div class="como-grid">
+      <div class="como-card">
+        <span class="como-tag">1</span>
+        <h3>Escolha um animal</h3>
+        <p>Navegue pelos cards, filtre por espécie e conheça a história de cada um.</p>
+      </div>
+      <div class="como-card">
+        <span class="como-tag">2</span>
+        <h3>Converse com o abrigo</h3>
+        <p>Envie seu interesse e nossa equipe entra em contato para tirar dúvidas.</p>
+      </div>
+      <div class="como-card">
+        <span class="como-tag">3</span>
+        <h3>Leve para casa</h3>
+        <p>Assine o termo de adoção responsável e receba acompanhamento pós-adoção.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contato">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand">
+          <svg viewBox="0 0 64 64" width="30" height="30"><path class="paw" fill="#F0824F" d="M20 30c5 0 9 5 9 11s-4 9-9 9-9-5-9-11 4-9 9-9zm24 0c5 0 9 4 9 9s-4 11-9 11-9-3-9-9 4-11 9-11zM14 12c3.6 0 6.5 3.8 6.5 8.5S17.6 29 14 29s-6.5-3.8-6.5-8.5S10.4 12 14 12zm36 0c3.6 0 6.5 3.8 6.5 8.5S53.6 29 50 29s-6.5-3.8-6.5-8.5S46.4 12 50 12zM32 20c5.5 0 10 5.6 10 12.5S39 47 32 47s-10-7.6-10-14.5S26.5 20 32 20z"/></svg>
+          <span class="logo-word">Refúgio Patas</span>
+        </div>
+        <p>Conectamos animais resgatados a famílias prontas para amar. Adoção responsável, com acompanhamento do início ao fim.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#animais">Animais disponíveis</a></li>
+          <li><a href="#como">Como funciona</a></li>
+          <li><a href="#">Perguntas frequentes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#">contato@refugiopatas.org</a></li>
+          <li><a href="#">(81) 99999-0000</a></li>
+          <li><a href="#">Petrolândia, PE</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Refúgio Patas. Todos os direitos reservados.</span>
+      <span>Feito com carinho por quem ama patinhas 🐾</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
