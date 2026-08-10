@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --verde-escuro: #284d2f;
+    --verde-texto: #1e3425;
+    --verde-fundo: #f0f4e7;
+    --verde-claro: #f7f9f2;
+    --laranja: #ed7440;
+    --laranja-claro: #f8b72d;
+    --branco: #ffffff;
+    --borda: #dfe5d4;
+    --cinza: #667266;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: var(--verde-fundo);
+
+    color: var(--verde-texto);
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 64px;
+
+    background-color: var(--verde-claro);
+
+    border-bottom: 1px solid var(--borda);
+}
+
+.header-container {
+    max-width: 1120px;
+
+    height: 100%;
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+/* PARTE DIREITA */
+
+.header-direita {
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+}
+
+.admin-text {
+    font-size: 13px;
+
+    color: var(--cinza);
+}
+
+.btn-voltar {
+    padding: 10px 18px;
+
+    background-color: var(--verde-escuro);
+
+    color: var(--branco);
+
+    border-radius: 20px;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    font-weight: bold;
+}
+
+.btn-voltar:hover {
+    background-color: #1e3d24;
+}
+
+
+/* MAIN */
+
+.main {
+    width: 100%;
+
+    max-width: 1120px;
+
+    margin: 0 auto;
+
+    padding: 50px 20px;
+
+    flex: 1;
+}
+
+
+/* TOPO */
+
+.topo {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 35px;
+}
+
+.tag {
+    display: inline-block;
+
+    background-color: #fff0df;
+
+    color: #b85c2e;
+
+    padding: 7px 12px;
+
+    border-radius: 20px;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+.topo h1 {
+    font-size: 32px;
+
+    margin-bottom: 10px;
+
+    color: var(--verde-texto);
+}
+
+.topo p {
+    color: var(--cinza);
+
+    font-size: 14px;
+
+    max-width: 550px;
+
+    line-height: 1.6;
+}
+
+
+/* CONTADOR */
+
+.contador {
+    min-width: 150px;
+
+    padding: 20px;
+
+    background-color: var(--branco);
+
+    border: 1px solid var(--borda);
+
+    border-radius: 12px;
+
+    text-align: center;
+}
+
+.contador strong {
+    display: block;
+
+    color: var(--verde-escuro);
+
+    font-size: 28px;
+
+    margin-bottom: 5px;
+}
+
+.contador span {
+    color: var(--cinza);
+
+    font-size: 12px;
+}
+
+
+/* TABELA */
+
+.tabela-container {
+    background-color: var(--branco);
+
+    border: 1px solid var(--borda);
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 20px rgba(40, 77, 47, 0.05);
+}
+
+.tabela-header {
+    padding: 24px 25px;
+
+    border-bottom: 1px solid var(--borda);
+}
+
+.tabela-header h2 {
+    font-size: 18px;
+
+    margin-bottom: 5px;
+}
+
+.tabela-header p {
+    color: var(--cinza);
+
+    font-size: 13px;
+}
+
+
+/* SCROLL DA TABELA */
+
+.tabela-scroll {
+    width: 100%;
+
+    overflow-x: auto;
+}
+
+
+/* TABLE */
+
+table {
+    width: 100%;
+
+    min-width: 1100px;
+
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: var(--verde-claro);
+}
+
+th {
+    padding: 15px 14px;
+
+    text-align: left;
+
+    font-size: 11px;
+
+    color: var(--verde-texto);
+
+    text-transform: uppercase;
+
+    border-bottom: 1px solid var(--borda);
+
+    white-space: nowrap;
+}
+
+td {
+    padding: 16px 14px;
+
+    font-size: 13px;
+
+    color: var(--cinza);
+
+    border-bottom: 1px solid #edf0e8;
+
+    vertical-align: middle;
+}
+
+tbody tr:hover {
+    background-color: #fafbf7;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* NOME */
+
+.nome-animal {
+    color: var(--verde-texto);
+
+    font-weight: bold;
+}
+
+
+/* STATUS */
+
+.status {
+    display: inline-block;
+
+    padding: 5px 9px;
+
+    background-color: #e6f1e5;
+
+    color: var(--verde-escuro);
+
+    border-radius: 15px;
+
+    font-size: 11px;
+
+    font-weight: bold;
+}
+
+
+/* ESPÉCIE */
+
+.especie {
+    text-transform: capitalize;
+
+    color: var(--verde-texto);
+
+    font-weight: 600;
+}
+
+
+/* TEMPERAMENTO */
+
+.temperamento {
+    max-width: 230px;
+
+    line-height: 1.5;
+}
+
+
+/* MENSAGEM */
+
+.mensagem {
+    text-align: center;
+
+    padding: 20px;
+
+    color: var(--laranja);
+
+    font-size: 13px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    padding: 20px;
+
+    text-align: center;
+
+    background-color: var(--verde-claro);
+
+    border-top: 1px solid var(--borda);
+
+    color: var(--cinza);
+
+    font-size: 11px;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 700px) {
+
+    .header-direita {
+        gap: 10px;
+    }
+
+    .admin-text {
+        display: none;
+    }
+
+    .main {
+        padding: 35px 15px;
+    }
+
+    .topo {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 25px;
+    }
+
+    .contador {
+        width: 100%;
+    }
+
+    .topo h1 {
+        font-size: 27px;
+    }
+
+}

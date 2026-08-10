@@ -17,14 +17,13 @@
       </div>
       <div class="card-body">
         <div class="card-name-row"><h3>${animal.nome}</h3><span class="card-age">${animal.idade}</span></div>
-        <p class="card-breed">${animal.raca}${animal.sexo}</p>
+        <p class="card-breed">${animal.raca} - ${animal.sexo}</p>
         <ul class="card-facts">
-        <li> <img class="icon-card" src="data/img/relogio-icon.png"> ${animal.porte}</li>
+        <li> <img class="icon-card" src="data/img/coracao.png"> ${animal.porte}</li>
         <li> <img class="icon-card" src="data/img/mais.png" alt="Relógio"> ${animal.saude}</li>
         <div class="card-tags">${tags}</div>
         <div class="card-footer">
           <a href="#" class="btn-adotar">Quero adotar</a>
-          <button class="btn-fav" aria-label="Favoritar ${animal.nome}"><img class="icon-card" src="data/img/coracao.png" alt="Favoritar"></button>
         </div>
       </div>
     </article>`;

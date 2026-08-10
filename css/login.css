@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --verde-escuro: #284d2f;
+    --verde-texto: #1e3425;
+    --verde-fundo: #f0f4e7;
+    --verde-claro: #f7f9f2;
+    --laranja: #ed7440;
+    --laranja-claro: #f8b72d;
+    --branco: #ffffff;
+    --borda: #dfe5d4;
+    --cinza: #667266;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--verde-fundo);
+    color: var(--verde-texto);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 64px;
+    background-color: var(--verde-claro);
+    border-bottom: 1px solid var(--borda);
+}
+
+.header-container {
+    max-width: 720px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+.logo-nome{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    text-decoration: none;
+    color: var(--verde-texto);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.logo-pata {
+    color: var(--laranja);
+    font-size: 25px;
+}
+
+.voltar {
+    color: var(--verde-texto);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.voltar:hover {
+    color: var(--laranja);
+}
+
+
+/* ÁREA PRINCIPAL */
+
+.login-main {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px 20px;
+}
+
+
+/* CARD */
+
+.login-card {
+    width: 100%;
+    max-width: 430px;
+
+    background-color: var(--branco);
+
+    padding: 42px;
+
+    border: 1px solid var(--borda);
+    border-radius: 18px;
+
+    box-shadow: 0 8px 25px rgba(40, 77, 47, 0.08);
+}
+
+
+/* ÍCONE */
+
+.login-icon {
+    width: 58px;
+    height: 58px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff0df;
+
+    border-radius: 50%;
+
+    font-size: 27px;
+}
+
+
+/* TÍTULO */
+
+.login-card h1 {
+    text-align: center;
+
+    font-size: 28px;
+
+    margin-bottom: 8px;
+
+    color: var(--verde-texto);
+}
+
+.login-description {
+    text-align: center;
+
+    color: var(--cinza);
+
+    font-size: 14px;
+
+    margin-bottom: 30px;
+}
+
+
+/* CAMPOS */
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    color: var(--verde-texto);
+}
+
+.campo input {
+    width: 100%;
+
+    height: 46px;
+
+    padding: 0 14px;
+
+    border: 1px solid var(--borda);
+    border-radius: 8px;
+
+    background-color: #fafbf8;
+
+    color: var(--verde-texto);
+
+    font-size: 14px;
+
+    outline: none;
+}
+
+.campo input:focus {
+    border-color: var(--verde-escuro);
+    background-color: var(--branco);
+}
+
+.campo input::placeholder {
+    color: #9ba39a;
+}
+
+
+/* BOTÃO */
+
+.btn-login {
+    width: 100%;
+
+    height: 48px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: var(--verde-escuro);
+
+    color: white;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.btn-login:hover {
+    background-color: #1e3d24;
+}
+
+
+/* MENSAGEM */
+
+#mensagem {
+    text-align: center;
+
+    font-size: 13px;
+
+    margin-top: 15px;
+}
+
+
+/* RODAPÉ DO CARD */
+
+.login-footer {
+    margin-top: 28px;
+
+    padding-top: 22px;
+
+    border-top: 1px solid var(--borda);
+
+    text-align: center;
+}
+
+.login-footer p {
+    font-size: 13px;
+
+    color: var(--cinza);
+
+    margin-bottom: 8px;
+}
+
+.login-footer a {
+    color: var(--laranja);
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+
+.footer {
+    padding: 20px;
+
+    text-align: center;
+
+    background-color: var(--verde-claro);
+
+    border-top: 1px solid var(--borda);
+
+    color: var(--cinza);
+
+    font-size: 11px;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 600px) {
+
+    .header-container {
+        padding: 0 20px;
+    }
+
+    .voltar {
+        display: none;
+    }
+
+    .login-main {
+        padding: 30px 15px;
+    }
+
+    .login-card {
+        padding: 30px 25px;
+    }
+
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Administrador | Refúgio Patas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/admin.css">
+
+    <script src="js/admin.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="header-container">
+
+            <a href="adocao.html">
+                <div class="brand">
+                    <img class="logo" src="data/img/pata.png" alt="">
+                    <span class="logo-word">Refúgio <span>Patas</span></span>
+                </div>
+            </a>
+
+            <div class="header-direita">
+
+                <span class="admin-text">
+                    Painel do administrador
+                </span>
+
+                <a href="adocao.html" class="btn-voltar">
+                    Voltar ao site
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="main">
+
+        <section class="topo">
+
+            <div>
+                <span class="tag">
+                    🐾 Administração
+                </span>
+
+                <h1>
+                    Animais cadastrados
+                </h1>
+
+                <p>
+                    Gerencie e visualize os animais disponíveis
+                    para adoção no Refúgio Patas.
+                </p>
+            </div>
+
+            <div class="contador">
+
+                <strong id="quantidadeAnimais">
+                    0
+                </strong>
+
+                <span>
+                    animais cadastrados
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <section class="tabela-container">
+
+            <div class="tabela-header">
+
+                <div>
+                    <h2>
+                        Lista de animais
+                    </h2>
+
+                    <p>
+                        Animais presentes no sistema
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="tabela-scroll">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Nome</th>
+                            <th>Espécie</th>
+                            <th>Status</th>
+                            <th>Idade</th>
+                            <th>Raça</th>
+                            <th>Sexo</th>
+                            <th>Porte</th>
+                            <th>Saúde</th>
+                            <th>Localização</th>
+                            <th>Temperamento</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="tabelaAnimais">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <p id="mensagem" class="mensagem"></p>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Refúgio Patas. Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
