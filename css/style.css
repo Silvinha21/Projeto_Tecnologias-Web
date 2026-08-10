@@ -223,6 +223,11 @@
     height:15px;
   }
 
+  .logo{
+    max-width: 40px;
+    max-height: 40px;
+  }
+
   /* ---------- footer ---------- */
   footer{ padding:56px 0 26px; }
   .footer-grid{

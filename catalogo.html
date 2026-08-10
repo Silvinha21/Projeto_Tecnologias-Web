@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refúgio Patas — Adoção Responsável</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav wrap">
+    <div class="brand">
+      <a href="adocao.html"><img class="logo" src="data/img/pata.png" alt=""></a>
+      <span class="logo-word">Refúgio <span>Patas</span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="catalogo.html">Adotar</a></li>
+      <li><a href="#como">Como funciona</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="catalogo.html" class="nav-cta">Ver animais</a>
+  </nav>
+</header>
+    
+<section class="filtros-section wrap" id="animais">
+  <div class="filtros-head">
+    <h2>Animais esperando por você</h2>
+    <p>Filtre por espécie e encontre o novo integrante da família.</p>
+  </div>
+
+  <input class="filtros-input" type="radio" name="filtro" id="f-todos" checked>
+  <input class="filtros-input" type="radio" name="filtro" id="f-caes">
+  <input class="filtros-input" type="radio" name="filtro" id="f-gatos">
+
+  <div class="filtros-tabs">
+    <label for="f-todos">Todos</label>
+    <label for="f-caes">Cães</label>
+    <label for="f-gatos">Gatos</label>
+  </div>
+
+  <div class="grid" id="grid">
+    <!-- Os cards são gerados automaticamente a partir de animais.json -->
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
