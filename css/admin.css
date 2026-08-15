@@ -30,7 +30,6 @@ body {
 }
 
 
-/* HEADER */
 
 .header {
     height: 64px;
@@ -57,7 +56,6 @@ body {
 }
 
 
-/* PARTE DIREITA */
 
 .header-direita {
     display: flex;
@@ -94,7 +92,6 @@ body {
 }
 
 
-/* MAIN */
 
 .main {
     width: 100%;
@@ -107,9 +104,6 @@ body {
 
     flex: 1;
 }
-
-
-/* TOPO */
 
 .topo {
     display: flex;
@@ -158,8 +152,6 @@ body {
 }
 
 
-/* CONTADOR */
-
 .contador {
     min-width: 150px;
 
@@ -191,8 +183,6 @@ body {
 }
 
 
-/* TABELA */
-
 .tabela-container {
     background-color: var(--branco);
 
@@ -223,17 +213,12 @@ body {
     font-size: 13px;
 }
 
-
-/* SCROLL DA TABELA */
-
 .tabela-scroll {
     width: 100%;
 
     overflow-x: auto;
 }
 
-
-/* TABLE */
 
 table {
     width: 100%;
@@ -284,16 +269,12 @@ tbody tr:last-child td {
 }
 
 
-/* NOME */
-
 .nome-animal {
     color: var(--verde-texto);
 
     font-weight: bold;
 }
 
-
-/* STATUS */
 
 .status {
     display: inline-block;
@@ -312,8 +293,6 @@ tbody tr:last-child td {
 }
 
 
-/* ESPÉCIE */
-
 .especie {
     text-transform: capitalize;
 
@@ -323,16 +302,12 @@ tbody tr:last-child td {
 }
 
 
-/* TEMPERAMENTO */
-
 .temperamento {
     max-width: 230px;
 
     line-height: 1.5;
 }
 
-
-/* MENSAGEM */
 
 .mensagem {
     text-align: center;
@@ -344,8 +319,6 @@ tbody tr:last-child td {
     font-size: 13px;
 }
 
-
-/* FOOTER */
 
 .footer {
     padding: 20px;
@@ -361,8 +334,6 @@ tbody tr:last-child td {
     font-size: 11px;
 }
 
-
-/* RESPONSIVO */
 
 @media (max-width: 700px) {
 

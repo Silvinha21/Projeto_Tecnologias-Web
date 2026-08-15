@@ -37,7 +37,6 @@ function cardAnimal(animal) {
   </article>`;
 }
 
-// --- Helpers de classificação para os filtros ---
 
 function parsePorte(porteStr) {
   const s = (porteStr || '').toLowerCase();
@@ -55,13 +54,10 @@ function parseIdadeCategoria(idadeStr) {
   if (s.includes('mês') || s.includes('meses')) {
     return numero < 12 ? 'filhote' : 'adulto';
   }
-  // assume anos
   if (numero < 1) return 'filhote';
   if (numero <= 6) return 'adulto';
   return 'senior';
 }
-
-// --- Filtro combinado ---
 
 function animalCorresponde(animal) {
   const buscaOk = filtros.busca === '' ||
@@ -91,7 +87,6 @@ function aplicarFiltros() {
   renderAnimais(filtrados);
 }
 
-// --- Listeners ---
 
 document.getElementById('busca-raca').addEventListener('input', (e) => {
   filtros.busca = e.target.value;
@@ -116,8 +111,6 @@ document.querySelectorAll('input[name="filtro"]').forEach((radio) => {
     aplicarFiltros();
   });
 });
-
-// --- Carregamento inicial ---
 
 fetch('data/animais.json')
   .then(res => { if (!res.ok) throw new Error('Falha ao carregar animais.json'); return res.json(); })

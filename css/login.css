@@ -26,8 +26,6 @@ body {
 }
 
 
-/* HEADER */
-
 .header {
     height: 64px;
     background-color: var(--verde-claro);
@@ -44,12 +42,12 @@ body {
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     max-width: 40px;
     max-height: 40px;
-  }
+}
 
-.logo-nome{
+.logo-nome {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -76,8 +74,6 @@ body {
 }
 
 
-/* ÁREA PRINCIPAL */
-
 .login-main {
     flex: 1;
 
@@ -88,8 +84,6 @@ body {
     padding: 50px 20px;
 }
 
-
-/* CARD */
 
 .login-card {
     width: 100%;
@@ -105,8 +99,6 @@ body {
     box-shadow: 0 8px 25px rgba(40, 77, 47, 0.08);
 }
 
-
-/* ÍCONE */
 
 .login-icon {
     width: 58px;
@@ -124,9 +116,6 @@ body {
 
     font-size: 27px;
 }
-
-
-/* TÍTULO */
 
 .login-card h1 {
     text-align: center;
@@ -147,9 +136,6 @@ body {
 
     margin-bottom: 30px;
 }
-
-
-/* CAMPOS */
 
 .campo {
     margin-bottom: 20px;
@@ -195,9 +181,6 @@ body {
     color: #9ba39a;
 }
 
-
-/* BOTÃO */
-
 .btn-login {
     width: 100%;
 
@@ -222,9 +205,6 @@ body {
     background-color: #1e3d24;
 }
 
-
-/* MENSAGEM */
-
 #mensagem {
     text-align: center;
 
@@ -232,9 +212,6 @@ body {
 
     margin-top: 15px;
 }
-
-
-/* RODAPÉ DO CARD */
 
 .login-footer {
     margin-top: 28px;
@@ -264,9 +241,6 @@ body {
     text-decoration: none;
 }
 
-
-/* FOOTER */
-
 .footer {
     padding: 20px;
 
@@ -280,9 +254,6 @@ body {
 
     font-size: 11px;
 }
-
-
-/* RESPONSIVO */
 
 @media (max-width: 600px) {
 
