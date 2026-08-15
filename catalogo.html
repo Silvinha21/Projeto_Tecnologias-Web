@@ -31,7 +31,7 @@
     </nav>
   </header>
 
-  <section class="filtros-section wrap" id="animais">
+  <section class="filtros-section" id="animais">
     <div class="filtros-head">
       <h2>Animais esperando por você</h2>
       <p>Filtre por espécie e encontre o novo integrante da família.</p>
@@ -45,6 +45,24 @@
       <label for="f-todos">Todos</label>
       <label for="f-caes">Cães</label>
       <label for="f-gatos">Gatos</label>
+    </div>
+    
+    <div class="filtros-controls">
+      <input type="text" id="busca-raca" class="busca-input" placeholder="Buscar por raça (ex: Labrador, SRD...)">
+    
+      <select id="filtro-porte" class="filtro-select">
+        <option value="todos">Todos os portes</option>
+        <option value="pequeno">Porte pequeno</option>
+        <option value="medio">Porte médio</option>
+        <option value="grande">Porte grande</option>
+      </select>
+    
+      <select id="filtro-idade" class="filtro-select">
+        <option value="todos">Todas as idades</option>
+        <option value="filhote">Filhote (até 1 ano)</option>
+        <option value="adulto">Adulto (1 a 6 anos)</option>
+        <option value="senior">Sênior (7+ anos)</option>
+      </select>
     </div>
 
     <div class="grid" id="grid">

@@ -10,7 +10,6 @@
       "sexo": "Fêmea",
       "porte": "Porte médio",
       "saude": "Castrada e vacinada",
-      "localizacao": "Recife, PE",
       "temperamento": ["Dócil", "Brincalhona", "Boa com crianças"],
       "imagem": ""
     },
@@ -24,7 +23,6 @@
       "sexo": "Macho",
       "porte": "Porte pequeno",
       "saude": "Castrado e vacinado",
-      "localizacao": "Caruaru, PE",
       "temperamento": ["Independente", "Carinhoso", "Curioso"],
       "imagem": ""
     },
@@ -38,7 +36,6 @@
       "sexo": "Macho",
       "porte": "Porte grande",
       "saude": "Castrado e vacinado",
-      "localizacao": "Petrolândia, PE",
       "temperamento": ["Protetor", "Calmo", "Adora passeios"],
       "imagem": ""
     },
@@ -52,7 +49,6 @@
       "sexo": "Fêmea",
       "porte": "Porte pequeno",
       "saude": "Vacinada · castração agendada",
-      "localizacao": "Garanhuns, PE",
       "temperamento": ["Filhote", "Brincalhona", "Sociável"],
       "imagem": ""
     },
@@ -66,7 +62,6 @@
       "sexo": "Fêmea",
       "porte": "Porte pequeno",
       "saude": "Castrada e vacinada",
-      "localizacao": "Recife, PE",
       "temperamento": ["Tranquila", "Sênior", "Ótima companhia"],
       "imagem": ""
     },
@@ -80,7 +75,6 @@
       "sexo": "Macho",
       "porte": "Porte médio",
       "saude": "Castrado e vacinado",
-      "localizacao": "Caruaru, PE",
       "temperamento": ["Observador", "Manhoso", "Gosta de altura"],
       "imagem": ""
     }
